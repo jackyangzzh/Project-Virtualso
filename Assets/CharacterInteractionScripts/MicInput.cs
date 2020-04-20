@@ -21,7 +21,7 @@ public class MicInput : MonoBehaviour {
 
     Animator anim;
     public string talkingTimeParameter = "talkingTime";
-    public string silentTimeParameter = "silentTime";
+    public string silentTimeParameter = "silenceTime";
     int talkingTimeParamId;
     int silentTimeParamId;
 

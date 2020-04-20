@@ -10114,6 +10114,8 @@ GameObject:
   - component: {fileID: 2131874009}
   - component: {fileID: 2131874008}
   - component: {fileID: 2131874004}
+  - component: {fileID: 2131874011}
+  - component: {fileID: 2131874010}
   m_Layer: 0
   m_Name: BusinessManA4
   m_TagString: Untagged
@@ -10413,6 +10415,54 @@ MonoBehaviour:
   silentTimeParameter: silenceTime
   _clipRecord: {fileID: 0}
   _sampleWindow: 128
+--- !u!114 &2131874010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2131874003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49fa1cb75f5782148a8fddf7822f7387, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lookAtTime: 5
+  lookAwayTime: 3
+  headLookProb: 0.5
+  eyeLookProb: 1
+  maxXRotation: 45
+  maxXEyeRotation: 20
+  maxYRotation: 100
+  maxYEyeRotation: 45
+  LookAtTimeParameterName: LookAtTime
+  LookAwayTimeParameterName: LookAwayTime
+  lookAtTarget: {fileID: 322384060}
+  transitionSpeed: 1
+  eye: {fileID: 1908311740}
+--- !u!114 &2131874011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2131874003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49fa1cb75f5782148a8fddf7822f7387, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lookAtTime: 5
+  lookAwayTime: 3
+  headLookProb: 0.5
+  eyeLookProb: 1
+  maxXRotation: 45
+  maxXEyeRotation: 20
+  maxYRotation: 100
+  maxYEyeRotation: 45
+  LookAtTimeParameterName: LookAtTime
+  LookAwayTimeParameterName: LookAwayTime
+  lookAtTarget: {fileID: 322384060}
+  transitionSpeed: 1
+  eye: {fileID: 466588548}
 --- !u!1001 &2138872340
 Prefab:
   m_ObjectHideFlags: 0
