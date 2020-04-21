@@ -21,7 +21,7 @@ public class MicInput : MonoBehaviour {
 
     Animator anim;
     public string talkingTimeParameter = "talkingTime";
-    public string silentTimeParameter = "silenceTime";
+    public string silentTimeParameter = "silentTime";
     int talkingTimeParamId;
     int silentTimeParamId;
 
@@ -32,8 +32,6 @@ public class MicInput : MonoBehaviour {
         anim = GetComponent<Animator>();
         talkingTimeParamId = Animator.StringToHash(talkingTimeParameter);
         silentTimeParamId = Animator.StringToHash(silentTimeParameter);
-
-        //_clipRecord = AudioClip.Create();
     }
 
     //mic initialization
@@ -59,7 +57,7 @@ public class MicInput : MonoBehaviour {
 	}
 
 
-    public AudioClip _clipRecord;//= new AudioClip();
+	public AudioClip _clipRecord = new AudioClip();
 	public int _sampleWindow = 128;
 
 	//get data from microphone into audioclip

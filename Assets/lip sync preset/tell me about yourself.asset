@@ -14,18 +14,8 @@ MonoBehaviour:
   clip: {fileID: 8300000, guid: b6224578cf5baf5428edae26a8dd580f, type: 3}
   phonemeData:
   - phoneme: 0
-    phonemeNumber: 2
-    time: 0.0063344594
-    intensity: 1
-    sustain: 0
-    useRandomness: 0
-    intensityRandomness: 0.1
-    blendableRandomness: 0.3
-    bonePositionRandomness: 0.3
-    boneRotationRandomness: 0.3
-  - phoneme: 0
     phonemeNumber: 0
-    time: 0.13513513
+    time: 0.15625
     intensity: 1
     sustain: 0
     useRandomness: 0
@@ -35,7 +25,7 @@ MonoBehaviour:
     boneRotationRandomness: 0.3
   - phoneme: 0
     phonemeNumber: 4
-    time: 0.17947635
+    time: 0.19003378
     intensity: 1
     sustain: 0
     useRandomness: 0
@@ -45,7 +35,7 @@ MonoBehaviour:
     boneRotationRandomness: 0.3
   - phoneme: 0
     phonemeNumber: 2
-    time: 0.2027027
+    time: 0.21326013
     intensity: 1
     sustain: 0
     useRandomness: 0
@@ -55,7 +45,7 @@ MonoBehaviour:
     boneRotationRandomness: 0.3
   - phoneme: 0
     phonemeNumber: 7
-    time: 0.22804055
+    time: 0.23754223
     intensity: 1
     sustain: 0
     useRandomness: 0
@@ -64,18 +54,8 @@ MonoBehaviour:
     bonePositionRandomness: 0.3
     boneRotationRandomness: 0.3
   - phoneme: 0
-    phonemeNumber: 4
-    time: 0.24493243
-    intensity: 1
-    sustain: 0
-    useRandomness: 0
-    intensityRandomness: 0.1
-    blendableRandomness: 0.3
-    bonePositionRandomness: 0.3
-    boneRotationRandomness: 0.3
-  - phoneme: 0
-    phonemeNumber: 2
-    time: 0.2850507
+    phonemeNumber: 9
+    time: 0.30194256
     intensity: 1
     sustain: 0
     useRandomness: 0
@@ -85,7 +65,7 @@ MonoBehaviour:
     boneRotationRandomness: 0.3
   - phoneme: 0
     phonemeNumber: 8
-    time: 0.35684124
+    time: 0.3621199
     intensity: 1
     sustain: 0
     useRandomness: 0
@@ -94,8 +74,8 @@ MonoBehaviour:
     bonePositionRandomness: 0.3
     boneRotationRandomness: 0.3
   - phoneme: 0
-    phonemeNumber: 2
-    time: 0.3716216
+    phonemeNumber: 1
+    time: 0.3790118
     intensity: 1
     sustain: 0
     useRandomness: 0
@@ -114,38 +94,8 @@ MonoBehaviour:
     bonePositionRandomness: 0.3
     boneRotationRandomness: 0.3
   - phoneme: 0
-    phonemeNumber: 0
-    time: 0.4096284
-    intensity: 1
-    sustain: 0
-    useRandomness: 0
-    intensityRandomness: 0.1
-    blendableRandomness: 0.3
-    bonePositionRandomness: 0.3
-    boneRotationRandomness: 0.3
-  - phoneme: 0
-    phonemeNumber: 3
-    time: 0.4180743
-    intensity: 1
-    sustain: 0
-    useRandomness: 0
-    intensityRandomness: 0.1
-    blendableRandomness: 0.3
-    bonePositionRandomness: 0.3
-    boneRotationRandomness: 0.3
-  - phoneme: 0
-    phonemeNumber: 7
-    time: 0.4349662
-    intensity: 1
-    sustain: 0
-    useRandomness: 0
-    intensityRandomness: 0.1
-    blendableRandomness: 0.3
-    bonePositionRandomness: 0.3
-    boneRotationRandomness: 0.3
-  - phoneme: 0
     phonemeNumber: 4
-    time: 0.46241555
+    time: 0.4075169
     intensity: 1
     sustain: 0
     useRandomness: 0
@@ -155,7 +105,7 @@ MonoBehaviour:
     boneRotationRandomness: 0.3
   - phoneme: 0
     phonemeNumber: 2
-    time: 0.5025338
+    time: 0.427576
     intensity: 1
     sustain: 0
     useRandomness: 0
@@ -164,8 +114,8 @@ MonoBehaviour:
     bonePositionRandomness: 0.3
     boneRotationRandomness: 0.3
   - phoneme: 0
-    phonemeNumber: 6
-    time: 0.5215372
+    phonemeNumber: 7
+    time: 0.45291385
     intensity: 1
     sustain: 0
     useRandomness: 0
@@ -174,7 +124,17 @@ MonoBehaviour:
     bonePositionRandomness: 0.3
     boneRotationRandomness: 0.3
   - phoneme: 0
-    phonemeNumber: 6
+    phonemeNumber: 4
+    time: 0.4888091
+    intensity: 1
+    sustain: 0
+    useRandomness: 0
+    intensityRandomness: 0.1
+    blendableRandomness: 0.3
+    bonePositionRandomness: 0.3
+    boneRotationRandomness: 0.3
+  - phoneme: 0
+    phonemeNumber: 3
     time: 0.546875
     intensity: 1
     sustain: 0
@@ -184,38 +144,8 @@ MonoBehaviour:
     bonePositionRandomness: 0.3
     boneRotationRandomness: 0.3
   - phoneme: 0
-    phonemeNumber: 3
-    time: 0.6608953
-    intensity: 1
-    sustain: 0
-    useRandomness: 0
-    intensityRandomness: 0.1
-    blendableRandomness: 0.3
-    bonePositionRandomness: 0.3
-    boneRotationRandomness: 0.3
-  - phoneme: 0
-    phonemeNumber: 4
-    time: 0.6735642
-    intensity: 1
-    sustain: 0
-    useRandomness: 0
-    intensityRandomness: 0.1
-    blendableRandomness: 0.3
-    bonePositionRandomness: 0.3
-    boneRotationRandomness: 0.3
-  - phoneme: 0
-    phonemeNumber: 4
-    time: 0.6904561
-    intensity: 1
-    sustain: 0
-    useRandomness: 0
-    intensityRandomness: 0.1
-    blendableRandomness: 0.3
-    bonePositionRandomness: 0.3
-    boneRotationRandomness: 0.3
-  - phoneme: 0
-    phonemeNumber: 3
-    time: 0.7073479
+    phonemeNumber: 9
+    time: 0.6197213
     intensity: 1
     sustain: 0
     useRandomness: 0
@@ -225,7 +155,7 @@ MonoBehaviour:
     boneRotationRandomness: 0.3
   - phoneme: 0
     phonemeNumber: 7
-    time: 0.7200169
+    time: 0.6640625
     intensity: 1
     sustain: 0
     useRandomness: 0
@@ -234,8 +164,78 @@ MonoBehaviour:
     bonePositionRandomness: 0.3
     boneRotationRandomness: 0.3
   - phoneme: 0
-    phonemeNumber: 0
-    time: 0.7347973
+    phonemeNumber: 6
+    time: 0.6767314
+    intensity: 1
+    sustain: 0
+    useRandomness: 0
+    intensityRandomness: 0.1
+    blendableRandomness: 0.3
+    bonePositionRandomness: 0.3
+    boneRotationRandomness: 0.3
+  - phoneme: 0
+    phonemeNumber: 1
+    time: 0.6883446
+    intensity: 1
+    sustain: 0
+    useRandomness: 0
+    intensityRandomness: 0.1
+    blendableRandomness: 0.3
+    bonePositionRandomness: 0.3
+    boneRotationRandomness: 0.3
+  - phoneme: 0
+    phonemeNumber: 4
+    time: 0.7041807
+    intensity: 1
+    sustain: 0
+    useRandomness: 0
+    intensityRandomness: 0.1
+    blendableRandomness: 0.3
+    bonePositionRandomness: 0.3
+    boneRotationRandomness: 0.3
+  - phoneme: 0
+    phonemeNumber: 4
+    time: 0.7210726
+    intensity: 1
+    sustain: 0
+    useRandomness: 0
+    intensityRandomness: 0.1
+    blendableRandomness: 0.3
+    bonePositionRandomness: 0.3
+    boneRotationRandomness: 0.3
+  - phoneme: 0
+    phonemeNumber: 1
+    time: 0.7326858
+    intensity: 1
+    sustain: 0
+    useRandomness: 0
+    intensityRandomness: 0.1
+    blendableRandomness: 0.3
+    bonePositionRandomness: 0.3
+    boneRotationRandomness: 0.3
+  - phoneme: 0
+    phonemeNumber: 6
+    time: 0.7421875
+    intensity: 1
+    sustain: 0
+    useRandomness: 0
+    intensityRandomness: 0.1
+    blendableRandomness: 0.3
+    bonePositionRandomness: 0.3
+    boneRotationRandomness: 0.3
+  - phoneme: 0
+    phonemeNumber: 7
+    time: 0.7527449
+    intensity: 1
+    sustain: 0
+    useRandomness: 0
+    intensityRandomness: 0.1
+    blendableRandomness: 0.3
+    bonePositionRandomness: 0.3
+    boneRotationRandomness: 0.3
+  - phoneme: 0
+    phonemeNumber: 1
+    time: 0.7611909
     intensity: 1
     sustain: 0
     useRandomness: 0
@@ -245,36 +245,6 @@ MonoBehaviour:
     boneRotationRandomness: 0.3
   - phoneme: 0
     phonemeNumber: 2
-    time: 0.7432432
-    intensity: 1
-    sustain: 0
-    useRandomness: 0
-    intensityRandomness: 0.1
-    blendableRandomness: 0.3
-    bonePositionRandomness: 0.3
-    boneRotationRandomness: 0.3
-  - phoneme: 0
-    phonemeNumber: 4
-    time: 0.75380063
-    intensity: 1
-    sustain: 0
-    useRandomness: 0
-    intensityRandomness: 0.1
-    blendableRandomness: 0.3
-    bonePositionRandomness: 0.3
-    boneRotationRandomness: 0.3
-  - phoneme: 0
-    phonemeNumber: 7
-    time: 0.7601351
-    intensity: 1
-    sustain: 0
-    useRandomness: 0
-    intensityRandomness: 0.1
-    blendableRandomness: 0.3
-    bonePositionRandomness: 0.3
-    boneRotationRandomness: 0.3
-  - phoneme: 0
-    phonemeNumber: 0
     time: 0.7706926
     intensity: 1
     sustain: 0
@@ -284,8 +254,18 @@ MonoBehaviour:
     bonePositionRandomness: 0.3
     boneRotationRandomness: 0.3
   - phoneme: 0
-    phonemeNumber: 4
-    time: 0.7896959
+    phonemeNumber: 7
+    time: 0.7865287
+    intensity: 1
+    sustain: 0
+    useRandomness: 0
+    intensityRandomness: 0.1
+    blendableRandomness: 0.3
+    bonePositionRandomness: 0.3
+    boneRotationRandomness: 0.3
+  - phoneme: 0
+    phonemeNumber: 0
+    time: 0.8034206
     intensity: 1
     sustain: 0
     useRandomness: 0
@@ -295,7 +275,7 @@ MonoBehaviour:
     boneRotationRandomness: 0.3
   - phoneme: 0
     phonemeNumber: 4
-    time: 0.8065878
+    time: 0.813978
     intensity: 1
     sustain: 0
     useRandomness: 0
@@ -304,8 +284,48 @@ MonoBehaviour:
     bonePositionRandomness: 0.3
     boneRotationRandomness: 0.3
   - phoneme: 0
-    phonemeNumber: 3
-    time: 0.8361486
+    phonemeNumber: 4
+    time: 0.8203125
+    intensity: 1
+    sustain: 0
+    useRandomness: 0
+    intensityRandomness: 0.1
+    blendableRandomness: 0.3
+    bonePositionRandomness: 0.3
+    boneRotationRandomness: 0.3
+  - phoneme: 0
+    phonemeNumber: 2
+    time: 0.8287584
+    intensity: 1
+    sustain: 0
+    useRandomness: 0
+    intensityRandomness: 0.1
+    blendableRandomness: 0.3
+    bonePositionRandomness: 0.3
+    boneRotationRandomness: 0.3
+  - phoneme: 0
+    phonemeNumber: 4
+    time: 0.8456503
+    intensity: 1
+    sustain: 0
+    useRandomness: 0
+    intensityRandomness: 0.1
+    blendableRandomness: 0.3
+    bonePositionRandomness: 0.3
+    boneRotationRandomness: 0.3
+  - phoneme: 0
+    phonemeNumber: 1
+    time: 0.8625422
+    intensity: 1
+    sustain: 0
+    useRandomness: 0
+    intensityRandomness: 0.1
+    blendableRandomness: 0.3
+    bonePositionRandomness: 0.3
+    boneRotationRandomness: 0.3
+  - phoneme: 0
+    phonemeNumber: 6
+    time: 0.8783784
     intensity: 1
     sustain: 0
     useRandomness: 0
@@ -315,7 +335,7 @@ MonoBehaviour:
     boneRotationRandomness: 0.3
   - phoneme: 0
     phonemeNumber: 5
-    time: 0.8572635
+    time: 0.9089949
     intensity: 1
     sustain: 0
     useRandomness: 0
@@ -324,8 +344,8 @@ MonoBehaviour:
     bonePositionRandomness: 0.3
     boneRotationRandomness: 0.3
   - phoneme: 0
-    phonemeNumber: 5
-    time: 0.867821
+    phonemeNumber: 9
+    time: 0.9628378
     intensity: 1
     sustain: 0
     useRandomness: 0

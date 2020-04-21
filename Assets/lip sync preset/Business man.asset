@@ -36,17 +36,20 @@ MonoBehaviour:
     blendables:
     - blendableNumber: 1
       blendableName: FaceA_BS_.FaceA_OpenMouth (1)
-      weight: 0
+      weight: 51.4
+    - blendableNumber: 0
+      blendableName: FaceA_BS_.FaceA_Smile (0)
+      weight: 43.4
     bones: []
   - phonemeName: O
     phoneme: 0
     blendables:
     - blendableNumber: 1
       blendableName: FaceA_BS_.FaceA_OpenMouth (1)
-      weight: 53.7
+      weight: 41.9
     - blendableNumber: 0
       blendableName: FaceA_BS_.FaceA_Smile (0)
-      weight: 36.5
+      weight: 37.6
     bones: []
   - phonemeName: CDGKNRSThYZ
     phoneme: 0
