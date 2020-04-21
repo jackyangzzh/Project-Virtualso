@@ -2131,7 +2131,7 @@ SkinnedMeshRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
+  m_SelectedEditorRenderState: 2
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -2191,8 +2191,8 @@ SkinnedMeshRenderer:
   - {fileID: 1908311740}
   - {fileID: 1120281136}
   m_BlendShapeWeights:
-  - 0
-  - 0
+  - -0.07872721
+  - -0.020064922
   - 0
   m_RootBone: {fileID: 1885723980}
   m_AABB:
@@ -10116,6 +10116,9 @@ GameObject:
   - component: {fileID: 2131874008}
   - component: {fileID: 2131874004}
   - component: {fileID: 2131874011}
+  - component: {fileID: 2131874012}
+  - component: {fileID: 2131874010}
+  - component: {fileID: 2131874013}
   m_Layer: 0
   m_Name: BusinessManA4
   m_TagString: Untagged
@@ -10415,6 +10418,30 @@ MonoBehaviour:
   silentTimeParameter: silenceTime
   _clipRecord: {fileID: 0}
   _sampleWindow: 128
+--- !u!114 &2131874010
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2131874003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9036ca68e4aa8924a9003edadadd85a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isReady: 1
+  users:
+  - {fileID: 2131874012}
+  - {fileID: 2131874013}
+  _blendables:
+  - number: 0
+    currentWeight: -0.07872721
+  - number: 1
+    currentWeight: -0.020064922
+  - number: 2
+    currentWeight: 0
+  characterMesh: {fileID: 343279244}
+  optionalOtherMeshes: []
 --- !u!114 &2131874011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10439,6 +10466,242 @@ MonoBehaviour:
   lookAtTarget: {fileID: 322384060}
   transitionSpeed: 1
   eye: {fileID: 1089263728}
+--- !u!114 &2131874012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2131874003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60953a4eedd70a246ab4eadbed9f0591, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blendSystem: {fileID: 2131874010}
+  audioSource: {fileID: 2131874004}
+  useBones: 0
+  boneUpdateAnimation: 0
+  phonemes:
+  - blendShapes: 01000000
+    blendableNames:
+    - FaceA_BS_.FaceA_Smile (0)
+    weights:
+    - 41.9
+    bones: []
+    verified: 1
+    phonemeName: AI
+    phoneme: 0
+  - blendShapes: 0100000002000000
+    blendableNames:
+    - FaceA_BS_.FaceA_Smile (0)
+    - FaceA_BS_.FaceA_OpenMouth (1)
+    weights:
+    - 20.9
+    - 53
+    bones: []
+    verified: 1
+    phonemeName: E
+    phoneme: 0
+  - blendShapes: 01000000
+    blendableNames:
+    - FaceA_BS_.FaceA_Smile (0)
+    weights:
+    - 0
+    bones: []
+    verified: 1
+    phonemeName: U
+    phoneme: 0
+  - blendShapes: 0100000000000000
+    blendableNames:
+    - FaceA_BS_.FaceA_Smile (0)
+    - FaceA_BS_.FaceA_OpenMouth (1)
+    weights:
+    - 53.7
+    - 36.5
+    bones: []
+    verified: 1
+    phonemeName: O
+    phoneme: 0
+  - blendShapes: 0000000001000000
+    blendableNames:
+    - FaceA_BS_.FaceA_Smile (0)
+    - FaceA_BS_.FaceA_OpenMouth (1)
+    weights:
+    - 51.4
+    - 13.1
+    bones: []
+    verified: 1
+    phonemeName: CDGKNRSThYZ
+    phoneme: 0
+  - blendShapes: 00000000
+    blendableNames:
+    - FaceA_BS_.FaceA_Smile (0)
+    weights:
+    - 63.5
+    bones: []
+    verified: 1
+    phonemeName: FV
+    phoneme: 0
+  - blendShapes: 0100000000000000
+    blendableNames:
+    - FaceA_BS_.FaceA_Smile (0)
+    - FaceA_BS_.FaceA_OpenMouth (1)
+    weights:
+    - 53.5
+    - 60.6
+    bones: []
+    verified: 1
+    phonemeName: L
+    phoneme: 0
+  - blendShapes: 02000000
+    blendableNames:
+    - FaceA_BS_.FaceA_Smile (0)
+    weights:
+    - 24.1
+    bones: []
+    verified: 1
+    phonemeName: MBP
+    phoneme: 0
+  - blendShapes: 01000000
+    blendableNames:
+    - FaceA_BS_.FaceA_Smile (0)
+    weights:
+    - 25.8
+    bones: []
+    verified: 1
+    phonemeName: WQ
+    phoneme: 0
+  - blendShapes: 00000000
+    blendableNames:
+    - FaceA_BS_.FaceA_Smile (0)
+    weights:
+    - 0
+    bones: []
+    verified: 1
+    phonemeName: Rest
+    phoneme: 0
+  emotions:
+  - blendShapes: 02000000
+    blendableNames:
+    - FaceA_BS_.FaceA_Smile (0)
+    weights:
+    - 100
+    bones: []
+    verified: 1
+    emotion: Happy
+  - blendShapes: 00000000
+    blendableNames:
+    - FaceA_BS_.FaceA_Smile (0)
+    weights:
+    - 0
+    bones: []
+    verified: 1
+    emotion: Serious
+  - blendShapes: 00000000
+    blendableNames:
+    - FaceA_BS_.FaceA_Smile (0)
+    weights:
+    - 0
+    bones: []
+    verified: 1
+    emotion: Eyebrows Up
+  - blendShapes: 00000000
+    blendableNames:
+    - FaceA_BS_.FaceA_Smile (0)
+    weights:
+    - 0
+    bones: []
+    verified: 1
+    emotion: Sad
+  playOnAwake: 0
+  loop: 0
+  defaultClip: {fileID: 11400000, guid: 15d338a5ccf321849b32b691e82d0fb0, type: 2}
+  defaultDelay: 0
+  scaleAudioSpeed: 1
+  m_animationTimingMode: 0
+  frameRate: 30
+  restTime: 0.2
+  restHoldTime: 0.4
+  phonemeCurveGenerationMode: 1
+  emotionCurveGenerationMode: 0
+  keepEmotionWhenFinished: 0
+  setNeutralBonePosesOnStart: 0
+  gesturesAnimator: {fileID: 0}
+  gesturesLayer: 0
+  gestures: []
+  onFinishedPlaying:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  lastUsedVersion: 1.52
+--- !u!114 &2131874013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2131874003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4c3c6345ee104b4695e6f7a2c098f3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blendSystem: {fileID: 2131874010}
+  blinkingEnabled: 0
+  blinkingControlMode: 1
+  blinkingShape:
+    blendShapes: 
+    blendableNames: []
+    weights: []
+    bones: []
+    verified: 1
+  leftEyeBlinkBlendable: 0
+  rightEyeBlinkBlendable: 1
+  minimumBlinkGap: 1
+  maximumBlinkGap: 4
+  blinkDuration: 0.14
+  randomLookingEnabled: 1
+  lookingControlMode: 0
+  lookingUpShape:
+    blendShapes: 
+    blendableNames: []
+    weights: []
+    bones: []
+    verified: 1
+  lookingDownShape:
+    blendShapes: 
+    blendableNames: []
+    weights: []
+    bones: []
+    verified: 1
+  lookingLeftShape:
+    blendShapes: 
+    blendableNames: []
+    weights: []
+    bones: []
+    verified: 1
+  lookingRightShape:
+    blendShapes: 
+    blendableNames: []
+    weights: []
+    bones: []
+    verified: 1
+  _leftEyeLookAtBone: {fileID: 0}
+  _rightEyeLookAtBone: {fileID: 0}
+  eyeRotationRangeX: {x: -6.5, y: 6.5}
+  eyeRotationRangeY: {x: -17.2, y: 17.2}
+  eyeLookOffset: {x: 0, y: 0, z: 0}
+  eyeForwardAxis: 4
+  eyeTurnSpeed: 18
+  minimumChangeDirectionGap: 2
+  maximumChangeDirectionGap: 10
+  targetEnabled: 1
+  autoTarget: 0
+  autoTargetTag: EyeControllerTarget
+  autoTargetDistance: 10
+  viewTarget: {fileID: 322384060}
+  targetWeight: 0.831
+  boneUpdateAnimation: 0
 --- !u!1001 &2138872340
 Prefab:
   m_ObjectHideFlags: 0
