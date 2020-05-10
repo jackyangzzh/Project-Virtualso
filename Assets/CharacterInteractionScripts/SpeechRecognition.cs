@@ -16,10 +16,12 @@ public class SpeechRecognition : MonoBehaviour {
 
 		keywordRecognizer = new KeywordRecognizer(actions.Keys.ToArray());
 		keywordRecognizer.OnPhraseRecognized += RecognizedSpeech;
+		keywordRecognizer.Start();
 	}
 	
 	private void RecognizedSpeech(PhraseRecognizedEventArgs speech){
 		Debug.Log(speech.text);
+		actions[speech.text].Invoke();
 	}
 
 	// Update is called once per frame

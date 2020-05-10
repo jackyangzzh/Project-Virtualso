@@ -10118,6 +10118,7 @@ GameObject:
   - component: {fileID: 2131874011}
   - component: {fileID: 2131874012}
   - component: {fileID: 2131874010}
+  - component: {fileID: 2131874013}
   m_Layer: 0
   m_Name: BusinessManA4
   m_TagString: Untagged
@@ -10635,6 +10636,17 @@ MonoBehaviour:
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   lastUsedVersion: 1.52
+--- !u!114 &2131874013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2131874003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73a326eafe50f654e91be156ad0a0a40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2138872340
 Prefab:
   m_ObjectHideFlags: 0

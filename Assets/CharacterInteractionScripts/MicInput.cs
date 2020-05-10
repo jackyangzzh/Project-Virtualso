@@ -38,7 +38,7 @@ public class MicInput : MonoBehaviour {
     void InitMic(){
         for(int i = 0; i < Microphone.devices.Length; i++)
         {
-            Debug.Log(Microphone.devices[i]);
+            // Debug.Log(Microphone.devices[i]);
         }
         //Debug.Log("found " + micName);
         if (micName == null || micName == "") micName = Microphone.devices[0];
