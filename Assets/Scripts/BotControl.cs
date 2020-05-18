@@ -9,11 +9,14 @@ public class BotControl : MonoBehaviour
     private SpeechToText stt; // IBM Watson Speech to Text gameobject
     [SerializeField]
     private SimpleBot chat; // IBM Watson Assistant
+    public Animator animator;
 
     private void Start()
     {
         Runnable.Run(chat.Welcome());
+        animator = GameObject.Find("Interviewer").GetComponent<Animator>();
     }
+
     void Update()
     {
         /* Wait for audio clip of the output speech to finish before listening and converting
@@ -24,10 +27,12 @@ public class BotControl : MonoBehaviour
             if (chat.GetStatus() == SimpleBot.ProcessingStatus.Processing || !tts.IsFinished())
             {
                 stt.Active = false;
+                animator.SetBool("isListening", true);
             }
             else
             {
                 stt.Active = true;
+                animator.SetBool("isListening", false);
             }
         }
 
@@ -35,20 +40,21 @@ public class BotControl : MonoBehaviour
          * the next step, i.e. when to ask for a chat response and when to convert to audio.
          * This is now triggered by listeners in InputFields. I still need to keep track
          * of processing to know when to record or stop recording speech as above.
-         * /
-        /*
-        if (stt.GetStatus() == SpeechToText.ProcessingStatus.Processed && chat.ServiceReady())
-        {
-            // GetResult obtains the result of the speech to text conversion and changes the speech input status to Idle.
-            Runnable.Run(chat.ProcessChat(stt.GetResult()));
-        }
-        */
-        /*
-        if (chat.GetStatus() == SimpleBot.ProcessingStatus.Processed && tts.ServiceReady())
-        {
-            // GetResult obtains the chat response and adds it to the queue for conversion to speech audio.
-            tts.AddTextToQueue(chat.GetResult());
-        }
-        */
+         * 
+         */
+        
+        // if (stt.GetStatus() == SpeechToText.ProcessingStatus.Processed && chat.ServiceReady())
+        // {
+        //     // GetResult obtains the result of the speech to text conversion and changes the speech input status to Idle.
+        //     Runnable.Run(chat.ProcessChat(stt.GetResult()));
+        // }
+        
+        
+        // if (chat.GetStatus() == SimpleBot.ProcessingStatus.Processed && tts.ServiceReady())
+        // {
+        //     // GetResult obtains the chat response and adds it to the queue for conversion to speech audio.
+        //     tts.AddTextToQueue(chat.GetResult());
+        // }
+        
     }
 }

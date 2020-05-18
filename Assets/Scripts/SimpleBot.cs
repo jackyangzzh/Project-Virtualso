@@ -219,7 +219,11 @@ public class SimpleBot : MonoBehaviour
     // This is where the returned chat response is set to send as output
     protected virtual void OnMessage(DetailedResponse<MessageResponse> response, IBMError error)
     {
-        textResponse = response.Result.Output.Generic[0].Text.ToString();
+        textResponse = "";
+        for(int i = 0; i < response.Result.Output.Generic.Count; i++){
+            textResponse += response.Result.Output.Generic[i].Text.ToString();
+        }
+
 
         if (targetInputField != null)
         {

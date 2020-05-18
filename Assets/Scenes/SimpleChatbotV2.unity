@@ -129,6 +129,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2071180725607596307, guid: 2ad70d9d37396824493243ee34d2ec7e,
+        type: 3}
+      propertyPath: settings
+      value: 
+      objectReference: {fileID: 11400000, guid: 3f813d8bd389cab4db095af6fb7b02b5,
+        type: 2}
     - target: {fileID: 3298176294923451192, guid: 2ad70d9d37396824493243ee34d2ec7e,
         type: 3}
       propertyPath: m_Name
@@ -139,6 +145,18 @@ PrefabInstance:
       propertyPath: spokenText
       value: 
       objectReference: {fileID: 425918928}
+    - target: {fileID: 6421326735247347770, guid: 2ad70d9d37396824493243ee34d2ec7e,
+        type: 3}
+      propertyPath: settings
+      value: 
+      objectReference: {fileID: 11400000, guid: 3f813d8bd389cab4db095af6fb7b02b5,
+        type: 2}
+    - target: {fileID: 6421326735687832922, guid: 2ad70d9d37396824493243ee34d2ec7e,
+        type: 3}
+      propertyPath: settings
+      value: 
+      objectReference: {fileID: 11400000, guid: 3f813d8bd389cab4db095af6fb7b02b5,
+        type: 2}
     - target: {fileID: 8892627308917165804, guid: 2ad70d9d37396824493243ee34d2ec7e,
         type: 3}
       propertyPath: m_LocalPosition.x
