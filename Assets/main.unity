@@ -13620,13 +13620,11 @@ GameObject:
   - component: {fileID: 2131874006}
   - component: {fileID: 2131874005}
   - component: {fileID: 2131874004}
-  - component: {fileID: 2131874011}
-  - component: {fileID: 2131874010}
   - component: {fileID: 2131874013}
   - component: {fileID: 2131874012}
   - component: {fileID: 2131874009}
-  - component: {fileID: 2131874014}
   - component: {fileID: 2131874008}
+  - component: {fileID: 2131874010}
   m_Layer: 0
   m_Name: Interviewer
   m_TagString: Untagged
@@ -13901,7 +13899,7 @@ MonoBehaviour:
   LookAwayTimeParameterName: LookAwayTime
   lookAtTarget: {fileID: 322384060}
   transitionSpeed: 1
-  eye: {fileID: 1908311740}
+  eye: {fileID: 1089263728}
 --- !u!114 &2131874009
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13916,30 +13914,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   useMergeWithInfluencer: 1
   inspHeight: 150
-  inspShowHeads: 1
+  inspShowHeads: 0
   inspShowEmote: 1
-  inspShowEyes: 1
+  inspShowEyes: 0
   inspShowLids: 1
   inspShowLipsync: 1
-  inspShowBlinks: 1
+  inspShowBlinks: 0
 --- !u!114 &2131874010
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2131874003}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9036ca68e4aa8924a9003edadadd85a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isReady: 0
-  users: []
-  _blendables: []
-  characterMesh: {fileID: 0}
-  optionalOtherMeshes: []
---- !u!114 &2131874011
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -13948,22 +13929,108 @@ MonoBehaviour:
   m_GameObject: {fileID: 2131874003}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49fa1cb75f5782148a8fddf7822f7387, type: 3}
+  m_Script: {fileID: -1489447753, guid: 21fe281538940584e84b6d5eedb3525e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lookAtTime: 5
-  lookAwayTime: 3
-  headLookProb: 0.5
-  eyeLookProb: 1
-  maxXRotation: 45
-  maxXEyeRotation: 20
-  maxYRotation: 100
-  maxYEyeRotation: 45
-  LookAtTimeParameterName: LookAtTime
-  LookAwayTimeParameterName: LookAwayTime
-  lookAtTarget: {fileID: 322384060}
-  transitionSpeed: 1
-  eye: {fileID: 899629502}
+  emoterName: Emoter
+  queueProcessor: {fileID: 2131874009}
+  lipsyncEmphasisChance: 0.75
+  lipsyncEmphasisEmotes: []
+  repeaterEmotes: []
+  randomEmotes: []
+  emotes:
+  - expData:
+      name: smile
+      components:
+      - name: component 0
+        controlType: 0
+        lipsyncControlType: 0
+        emoteControlType: 0
+        eyesControlType: 1
+        durationDelay: 0
+        durationOn: 0.5
+        durationHold: 0.5
+        durationOff: 0.5
+        isSmoothDisable: 0
+        isPersistent: 0
+        expressionType: 1
+        easing: 4
+        expressionHandler: 1
+        isAnimatorControlled: 0
+        useOffset: 0
+        inspFoldout: 1
+        enabled: 1
+        isBonePreviewUpdated: 0
+        frac: 1
+      controllerVars:
+      - bone: {fileID: 0}
+        baseTform:
+          pos: {x: 0, y: 0, z: 0}
+          rot: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+        startTform:
+          pos: {x: 0, y: 0, z: 0}
+          rot: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+        endTform:
+          pos: {x: 0, y: 0, z: 0}
+          rot: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+        fracPos: 1
+        fracRot: 1
+        fracScl: 1
+        inspIsSetStart: 0
+        inspIsSetEnd: 0
+        umaUepProxy: {fileID: 0}
+        uepAmount: 0
+        smr: {fileID: 343279244}
+        blendIndex: 0
+        minShape: 0
+        maxShape: 0.4
+        eyeGizmo: {fileID: 0}
+        animator: {fileID: 0}
+        isTriggerParameterBiDirectional: 0
+        eventIdentityName: 
+        onState: 2
+        display2dImage: 0
+        isRestNull: 0
+        spriteRenderer: {fileID: 0}
+        sprites: []
+        uguiRenderer: {fileID: 0}
+        textureRenderer: {fileID: 0}
+        materialIndex: 0
+        backupTextures: []
+        textures: []
+        materialRenderer: {fileID: 0}
+        materials: []
+      inspFoldout: 1
+      previewDisplayMode: 0
+      collectionExpand: 0
+    isRandomEmote: 1
+    isLipsyncEmphasisEmote: 1
+    isRepeaterEmote: 0
+    repeaterDelay: 0
+    startDelay: 0
+    isPersistent: 0
+    isHoldVariationExempt: 0
+    frac: 1
+  useRandomEmotes: 1
+  isChancePerEmote: 1
+  numRandomEmotesPerCycle: 0
+  randomEmoteMinTimer: 1
+  randomEmoteMaxTimer: 2
+  randomChance: 0.5
+  useRandomFrac: 0
+  randomFracBias: 0.5
+  useRandomHoldDuration: 0
+  randomHoldDurationMin: 0.1
+  randomHoldDurationMax: 0.5
+  configReady: 1
+  inspSalsaLinked: 1
+  inspStateFoldoutProcessing: 1
+  inspStateFoldoutSettings: 0
+  inspStateFoldoutEmotes: 1
+  inspCollectionDisplayMode: 1
 --- !u!114 &2131874012
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14437,7 +14504,7 @@ MonoBehaviour:
       collectionExpand: 0
     trigger: 0.44444448
   sampleSize: 512
-  emoter: {fileID: 0}
+  emoter: {fileID: 2131874010}
   emphasizerTrigger: 0.7
   scaleExternalAnalysis: 0
   useAdvDyn: 1
@@ -14484,31 +14551,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73a326eafe50f654e91be156ad0a0a40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &2131874014
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2131874003}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49fa1cb75f5782148a8fddf7822f7387, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lookAtTime: 5
-  lookAwayTime: 3
-  headLookProb: 0.5
-  eyeLookProb: 1
-  maxXRotation: 45
-  maxXEyeRotation: 20
-  maxYRotation: 100
-  maxYEyeRotation: 45
-  LookAtTimeParameterName: LookAtTime
-  LookAwayTimeParameterName: LookAwayTime
-  lookAtTarget: {fileID: 0}
-  transitionSpeed: 1
-  eye: {fileID: 466588548}
 --- !u!1001 &2138872340
 PrefabInstance:
   m_ObjectHideFlags: 0
