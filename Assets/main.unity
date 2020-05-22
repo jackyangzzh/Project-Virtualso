@@ -6858,7 +6858,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 899629501}
-  m_LocalRotation: {x: -1.8824095e-10, y: 0.000000033202785, z: -0.11409941, w: 0.99346936}
+  m_LocalRotation: {x: -0.05403112, y: 0.0029454918, z: -0.07733434, w: 0.99553573}
   m_LocalPosition: {x: -0.1051794, y: -0.006468095, z: 0.0000000037252903}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -6867,7 +6867,7 @@ Transform:
   - {fileID: 1120281136}
   m_Father: {fileID: 358611088}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -6.15, y: 0.82000005, z: -8.928}
 --- !u!4 &900251700 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 415706, guid: b3ca47e3aef9f6b4e9c3d622893cb26b,
@@ -14030,7 +14030,7 @@ MonoBehaviour:
   LookAwayTimeParameterName: LookAwayTime
   lookAtTarget: {fileID: 322384060}
   transitionSpeed: 1
-  eye: {fileID: 1089263728}
+  eye: {fileID: 899629502}
 --- !u!114 &2131874012
 MonoBehaviour:
   m_ObjectHideFlags: 0

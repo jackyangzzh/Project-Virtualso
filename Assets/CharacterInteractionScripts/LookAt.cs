@@ -97,6 +97,7 @@ public class LookAt : MonoBehaviour {
 	
     void LookAtPlayer()
     {
+        print("Looking");
         if (!looking)
         {
             timer = -1;

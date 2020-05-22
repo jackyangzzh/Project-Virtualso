@@ -27,12 +27,12 @@ public class BotControl : MonoBehaviour
             if (chat.GetStatus() == SimpleBot.ProcessingStatus.Processing || !tts.IsFinished())
             {
                 stt.Active = false;
-                animator.SetBool("isListening", true);
+                animator.SetBool("isListening", false);
             }
             else
             {
                 stt.Active = true;
-                animator.SetBool("isListening", false);
+                animator.SetBool("isListening", true);
             }
         }
 
