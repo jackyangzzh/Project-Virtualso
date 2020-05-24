@@ -97,7 +97,6 @@ public class LookAt : MonoBehaviour {
 	
     void LookAtPlayer()
     {
-        print("Looking");
         if (!looking)
         {
             timer = -1;
@@ -113,7 +112,6 @@ public class LookAt : MonoBehaviour {
     }
 
     void OnAnimatorIK (){
-
         Vector3 direction = eye.InverseTransformPoint(lookAtTarget.position);
         Quaternion lookRotation = Quaternion.LookRotation(direction);
         float xTurn = Mathf.Abs(lookRotation.eulerAngles.x);
