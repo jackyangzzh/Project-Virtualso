@@ -2456,7 +2456,7 @@ PrefabInstance:
     - target: {fileID: 6238918168471857611, guid: 7dabfb29b87287c4c8b6931d44950288,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7dabfb29b87287c4c8b6931d44950288, type: 3}
@@ -2709,7 +2709,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1805793803131618, guid: 7e4423ed37e63cc488c6eea426ddc401, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4386208323565410, guid: 7e4423ed37e63cc488c6eea426ddc401, type: 3}
       propertyPath: m_LocalRotation.x
@@ -8636,7 +8636,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1115803306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13083,7 +13083,7 @@ PrefabInstance:
     - target: {fileID: 2952600816569817414, guid: cea6ac8b1a898d34b850b57300058000,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2952600816569817464, guid: cea6ac8b1a898d34b850b57300058000,
         type: 3}
@@ -14522,7 +14522,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!82 &2131874004
 AudioSource:
   m_ObjectHideFlags: 0
@@ -14883,7 +14883,7 @@ MonoBehaviour:
   lookAwayTime: 3
   headLookProb: 0.5
   eyeLookProb: 1
-  maxXRotation: 90
+  maxXRotation: 50
   maxXEyeRotation: 20
   maxYRotation: 100
   maxYEyeRotation: 45
@@ -14891,7 +14891,7 @@ MonoBehaviour:
   LookAwayTimeParameterName: LookAwayTime
   lookAtTarget: {fileID: 322384060}
   transitionSpeed: 1
-  eye: {fileID: 899629502}
+  eye: {fileID: 466588548}
 --- !u!114 &2131874012
 MonoBehaviour:
   m_ObjectHideFlags: 0

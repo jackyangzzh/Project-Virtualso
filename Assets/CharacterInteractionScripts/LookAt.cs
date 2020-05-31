@@ -118,9 +118,6 @@ public class LookAt : MonoBehaviour
         Vector3 olddirection = eye.InverseTransformPoint(lookAtTarget.position);
 
         Vector3 direction = new Vector3(olddirection.x, olddirection.z, olddirection.y);
-        // print(direction.x);
-        // print(direction.y);
-        // print(direction.z);
         Quaternion lookRotation = Quaternion.LookRotation(direction);
         float xTurn = Mathf.Abs(lookRotation.eulerAngles.x);
         if (xTurn > 180)
@@ -133,8 +130,7 @@ public class LookAt : MonoBehaviour
             yTurn = Mathf.Abs(yTurn - 360);
         }
 
-        print(xTurn);
-        print(yTurn);
+
         if (timer <= 0f)
         {
             if (LookAtTimeParamId != 0)
@@ -176,8 +172,6 @@ public class LookAt : MonoBehaviour
             }
         }
 
-        // print(looking);
-
         if (looking && (xTurn > maxXEyeRotation || yTurn > maxYEyeRotation))
         {
             targetHeadWeight = 1.0f;
@@ -190,9 +184,8 @@ public class LookAt : MonoBehaviour
         currentHeadWeight = Mathf.Lerp(currentHeadWeight, targetHeadWeight, transitionSpeed * Time.deltaTime);
         currentEyeWeight = Mathf.Lerp(currentEyeWeight, targetEyeWeight, transitionSpeed * Time.deltaTime);
 
-        // print("Eye " + currentEyeWeight);
-        // print("Head " + currentHeadWeight);
-
+        // print("Head" + currentHeadWeight);
+        // print("Eye" + currentEyeWeight);
 
         anim.SetLookAtWeight(1.0f, 0.0f, currentHeadWeight, currentEyeWeight, 0.0f);
 
