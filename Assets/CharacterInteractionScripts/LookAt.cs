@@ -27,7 +27,7 @@ public class LookAt : MonoBehaviour
     public float headLookProb = 0.5f;
     public float eyeLookProb = 1.0f;
 
-    public float maxXRotation = 90;
+    public float maxXRotation = 50;
     public float maxXEyeRotation = 20;
     public float maxYRotation = 100;
     public float maxYEyeRotation = 45;
@@ -147,7 +147,7 @@ public class LookAt : MonoBehaviour
             }
 
 
-            if (looking || xTurn > maxXRotation || yTurn > maxYRotation)
+            if (looking || xTurn > maxXRotation || yTurn < maxYRotation)
             {
                 timer = lookAwayTime;
                 // global, body, head, eyes, clamp (where 0 is unrestrained / 1 is full clamp)
