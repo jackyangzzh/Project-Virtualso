@@ -58,7 +58,7 @@ public class SimpleBot : MonoBehaviour
     //Keep track of whether IBM Watson Assistant should process input or is
     //processing input to create a chat response.
     public enum ProcessingStatus { Process, Processing, Idle, Processed };
-    private ProcessingStatus chatStatus;
+    public ProcessingStatus chatStatus;
 
     public enum InputFieldTrigger { onValueChanged, onEndEdit };
 
