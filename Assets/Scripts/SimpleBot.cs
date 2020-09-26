@@ -58,7 +58,7 @@ public class SimpleBot : MonoBehaviour
     //Keep track of whether IBM Watson Assistant should process input or is
     //processing input to create a chat response.
     public enum ProcessingStatus { Process, Processing, Idle, Processed };
-    public ProcessingStatus chatStatus;
+    private ProcessingStatus chatStatus;
 
     public enum InputFieldTrigger { onValueChanged, onEndEdit };
 
@@ -219,12 +219,9 @@ public class SimpleBot : MonoBehaviour
     // This is where the returned chat response is set to send as output
     protected virtual void OnMessage(DetailedResponse<MessageResponse> response, IBMError error)
     {
-        textResponse = "";
-        for(int i = 0; i < response.Result.Output.Generic.Count; i++){
-            textResponse += response.Result.Output.Generic[i].Text.ToString();
-        }
-
-
+        textResponse = response.Result.Output.Generic[0].Text.ToString();
+ 
+        
         if (targetInputField != null)
         {
             targetInputField.text = textResponse;
