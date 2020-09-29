@@ -148,7 +148,6 @@ public class SimpleBot : MonoBehaviour
         {
             yield return null;
         }
-
         Assistant_service.Message(OnMessage, settings.assistantId, sessionId);
         while (!messageTested)
         {
@@ -220,8 +219,8 @@ public class SimpleBot : MonoBehaviour
     protected virtual void OnMessage(DetailedResponse<MessageResponse> response, IBMError error)
     {
         textResponse = response.Result.Output.Generic[0].Text.ToString();
- 
-        
+
+
         if (targetInputField != null)
         {
             targetInputField.text = textResponse;

@@ -87,7 +87,7 @@ public class SpeechToText : MonoBehaviour
 
         // You can't use hyphens in enums, so the name of the model is completely defined here.
         languageModel = "en-" + model;
-        
+
 
         outputInputField = gameObject.GetComponent<InputField>();
         if (outputInputField == null)
@@ -96,7 +96,7 @@ public class SpeechToText : MonoBehaviour
             outputInputField.textComponent = gameObject.AddComponent<Text>();
         }
 
-     
+
         if (outputInputField != null)
         {
 

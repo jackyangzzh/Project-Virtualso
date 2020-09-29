@@ -46,7 +46,8 @@ public class TextToSpeech : MonoBehaviour
      * for other languages at:
      * https://cloud.ibm.com/docs/text-to-speech?topic=text-to-speech-voices#voices
      */
-    public enum IBM_voices {
+    public enum IBM_voices
+    {
         GB_KateV3Voice,
         US_AllisonVoice,
         US_AllisonV3Voice,
@@ -65,11 +66,11 @@ public class TextToSpeech : MonoBehaviour
     private TextToSpeechService tts_service; // IBM Watson text to speech service
     private IamAuthenticator tts_authenticator; // IBM Watson text to speech authenticator
 
-//Keep track of when the processing of text to speech is complete.
-//I don't want processing of text to speech to start until the previous 
-//text is processed. Otherwise, short text samples get processed faster
-//than longer samples and may be placed on the queue out of order.
-//It seems that AudioSource.isPlaying doesn't work reliably.
+    //Keep track of when the processing of text to speech is complete.
+    //I don't want processing of text to speech to start until the previous 
+    //text is processed. Otherwise, short text samples get processed faster
+    //than longer samples and may be placed on the queue out of order.
+    //It seems that AudioSource.isPlaying doesn't work reliably.
     public enum ProcessingStatus { Processing, Idle };
     private ProcessingStatus audioStatus;
 
@@ -111,7 +112,7 @@ public class TextToSpeech : MonoBehaviour
         // I originally used enums or flags to keep track if a process such
         // as obtaining a chat response from IBM Assistant was still being processed
         // or was finished processing but this was cumbersome.
-    
+
         if (externalInputField != null)
         {
             if (externalTriggerType == InputFieldTrigger.onEndEdit)
@@ -136,7 +137,7 @@ public class TextToSpeech : MonoBehaviour
         // The new audio clip is placed into the audio queue.
         if (textQueue.Count > 0 && audioStatus == ProcessingStatus.Idle)
         {
-            Debug.Log("Run ProcessText");                
+            Debug.Log("Run ProcessText");
             Runnable.Run(ProcessText());
         }
 
