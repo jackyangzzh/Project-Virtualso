@@ -1,24 +1,24 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using RogoDigital.Lipsync;
+//using RogoDigital.Lipsync;
 using UnityEngine;
 
 public class PlayAudio : StateMachineBehaviour
 {
 
-    public LipSyncData lipSync;
-    LipSync lip;
+    //public LipSyncData lipSync;
+    //LipSync lip;
 
-    // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
-    override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    {
-        lip = animator.gameObject.GetComponent<LipSync>();
-        if (lip == null)
-        {
-            lipSync = animator.GetComponent<LipSyncData>();
-        }
-        lip.Play(lipSync);
-    }
+    //// OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
+    //override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+    //{
+    //    lip = animator.gameObject.GetComponent<LipSync>();
+    //    if (lip == null)
+    //    {
+    //        lipSync = animator.GetComponent<LipSyncData>();
+    //    }
+    //    lip.Play(lipSync);
+    //}
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     //override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
