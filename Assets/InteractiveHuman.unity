@@ -4258,6 +4258,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5017974539503883503, guid: 6a3e0cfd4f0083e4585deb8ab24cee2f,
         type: 3}
+      propertyPath: voice
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5017974539503883503, guid: 6a3e0cfd4f0083e4585deb8ab24cee2f,
+        type: 3}
       propertyPath: inputText
       value: 
       objectReference: {fileID: 0}
@@ -4280,7 +4285,7 @@ PrefabInstance:
         type: 3}
       propertyPath: outputAudioSource
       value: 
-      objectReference: {fileID: 5927939564319276828}
+      objectReference: {fileID: 6764670874483122049}
     - target: {fileID: 5359342537202239461, guid: 6a3e0cfd4f0083e4585deb8ab24cee2f,
         type: 3}
       propertyPath: m_RootOrder
@@ -13917,6 +13922,116 @@ Transform:
   m_Father: {fileID: 443912315}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &4122210137772060260
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5096414189623917508, guid: f17343da7efa01e4ebf1557de5282f91,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5096414189623917508, guid: f17343da7efa01e4ebf1557de5282f91,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5096414189623917508, guid: f17343da7efa01e4ebf1557de5282f91,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5096414189623917508, guid: f17343da7efa01e4ebf1557de5282f91,
+        type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5096414189623917508, guid: f17343da7efa01e4ebf1557de5282f91,
+        type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265986348959773144, guid: f17343da7efa01e4ebf1557de5282f91,
+        type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265986348959773146, guid: f17343da7efa01e4ebf1557de5282f91,
+        type: 3}
+      propertyPath: speechToText
+      value: 
+      objectReference: {fileID: 1705315046}
+    - target: {fileID: 7265986348959773152, guid: f17343da7efa01e4ebf1557de5282f91,
+        type: 3}
+      propertyPath: lookTarget
+      value: 
+      objectReference: {fileID: 322384060}
+    - target: {fileID: 7265986348959773165, guid: f17343da7efa01e4ebf1557de5282f91,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265986348959773165, guid: f17343da7efa01e4ebf1557de5282f91,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.233
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265986348959773165, guid: f17343da7efa01e4ebf1557de5282f91,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265986348959773165, guid: f17343da7efa01e4ebf1557de5282f91,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.075
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265986348959773165, guid: f17343da7efa01e4ebf1557de5282f91,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265986348959773165, guid: f17343da7efa01e4ebf1557de5282f91,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265986348959773165, guid: f17343da7efa01e4ebf1557de5282f91,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265986348959773165, guid: f17343da7efa01e4ebf1557de5282f91,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265986348959773165, guid: f17343da7efa01e4ebf1557de5282f91,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265986348959773165, guid: f17343da7efa01e4ebf1557de5282f91,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265986348959773165, guid: f17343da7efa01e4ebf1557de5282f91,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265986348959773166, guid: f17343da7efa01e4ebf1557de5282f91,
+        type: 3}
+      propertyPath: m_Name
+      value: Interviewer (female)
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5096414189623917508, guid: f17343da7efa01e4ebf1557de5282f91, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: f17343da7efa01e4ebf1557de5282f91, type: 3}
 --- !u!4 &5927939564319276820
 Transform:
   m_ObjectHideFlags: 0
@@ -13968,12 +14083,12 @@ GameObject:
   - component: {fileID: 5927939564319276826}
   - component: {fileID: 5927939564319276825}
   m_Layer: 0
-  m_Name: Interview (new)
+  m_Name: Interviewer (male)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &5927939564319276825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14006,7 +14121,7 @@ MonoBehaviour:
   characterRoot: {fileID: 5927939564319276820}
   queueProcessor: {fileID: 5927939564319276830}
   lookTarget: {fileID: 322384060}
-  useAffinity: 0
+  useAffinity: 1
   affinityPercentage: 0.75
   hasAffinity: 1
   affinityTimerRange: {x: 2, y: 5}
@@ -14159,7 +14274,7 @@ MonoBehaviour:
         textures: []
         materialRenderer: {fileID: 0}
         materials: []
-      inspFoldout: 1
+      inspFoldout: 0
       previewDisplayMode: 0
       collectionExpand: 0
     gizmo: {fileID: 0}
@@ -14230,7 +14345,7 @@ MonoBehaviour:
         textures: []
         materialRenderer: {fileID: 0}
         materials: []
-      inspFoldout: 1
+      inspFoldout: 0
       previewDisplayMode: 0
       collectionExpand: 0
     gizmo: {fileID: 0}
@@ -16080,7 +16195,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -16125,7 +16240,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -18853,7 +18968,7 @@ MonoBehaviour:
   context: {fileID: 5927939564319276821}
   umaData: {fileID: 0}
   defaultRendererAsset: {fileID: 0}
-  umaRecipe: {fileID: 11400000, guid: cbe7b8858a7c17a4d9a80380b49cce27, type: 2}
+  umaRecipe: {fileID: 11400000, guid: 812bdfd823b789145a41e3e5a7997d33, type: 2}
   umaAdditionalRecipes: []
   umaGenerator: {fileID: 7947605818753740682}
   animationController: {fileID: 9100000, guid: 7a2d5ca7053cc684c81f9ae3c5bbf09e, type: 2}
@@ -18894,7 +19009,7 @@ MonoBehaviour:
   loadBlendShapes: 0
   keepAvatar: 0
   activeRace:
-    name: HumanMaleDCS
+    name: HumanMaleHighPoly
   defaultChangeRaceOptions: 8
   cacheCurrentState: 1
   rebuildSkeleton: 0
@@ -19157,6 +19272,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53fb48f586cd27247b8cd5084632611b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speechToText: {fileID: 1705315046}
+--- !u!82 &6764670874483122049 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7265986348959773157, guid: f17343da7efa01e4ebf1557de5282f91,
+    type: 3}
+  m_PrefabInstance: {fileID: 4122210137772060260}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &7542860661799318824
 MonoBehaviour:
   m_ObjectHideFlags: 0

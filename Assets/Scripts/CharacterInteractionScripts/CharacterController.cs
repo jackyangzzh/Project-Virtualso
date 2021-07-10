@@ -6,9 +6,10 @@ public class CharacterController : MonoBehaviour
 {
     private Animator animator;
     private AudioSource audioSource;
+    [SerializeField] SpeechToText speechToText;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         animator = GetComponent<Animator>();
         audioSource = GetComponent<AudioSource>();
@@ -17,11 +18,27 @@ public class CharacterController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(audioSource.isPlaying){
+        UpdateAnimation();
+    }
+
+    private void UpdateAnimation()
+    {
+        if (audioSource.isPlaying)
+        {
             animator.SetBool("isTalking", true);
+            animator.SetBool("isListening", false);
         }
-        else{
+        else
+        {
             animator.SetBool("isTalking", false);
+            if (speechToText.Active)
+            {
+                animator.SetBool("isListening", true);
+            }
+            else
+            {
+                animator.SetBool("isListening", false);
+            }
         }
     }
 }
