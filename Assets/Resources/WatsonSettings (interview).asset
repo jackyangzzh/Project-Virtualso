@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1e030247e3a99e44a950edca6224e0e6, type: 3}
-  m_Name: WatsonSettings (configured)
+  m_Name: WatsonSettings (interview)
   m_EditorClassIdentifier: 
   Assistant_apikey: oopGsOEa8_5hxlRRYuBlgfhgBZDl8Tv2PWan370K_64R
   serviceUrl: https://api.eu-gb.assistant.watson.cloud.ibm.com

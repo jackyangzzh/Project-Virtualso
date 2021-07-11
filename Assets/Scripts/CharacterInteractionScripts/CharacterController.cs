@@ -31,14 +31,8 @@ public class CharacterController : MonoBehaviour
         else
         {
             animator.SetBool("isTalking", false);
-            if (speechToText.Active)
-            {
-                animator.SetBool("isListening", true);
-            }
-            else
-            {
-                animator.SetBool("isListening", false);
-            }
+            animator.SetBool("isListening", speechToText.Active);
+
         }
     }
 }

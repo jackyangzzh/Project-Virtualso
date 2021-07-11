@@ -147,7 +147,7 @@ public class SpeechToText : MonoBehaviour
 
     public bool Active
     {
-        get { return _service.IsListening; }
+        get { return ServiceReady() ? _service.IsListening : false; }
         set
         {
             if (value && !_service.IsListening)
