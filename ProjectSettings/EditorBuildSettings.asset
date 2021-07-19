@@ -8,11 +8,18 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/SpeechPractice.unity
+    guid: cd7434a7f790e0a40b9435ec0b97974f
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 84db3b86098da474aad0b456a0fdac38,
       type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: fc50351a2eb756944ae773420c688d0c,
       type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 5d3948ed2f757274d84fedc1f67e6e2b,
+      type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
+      guid: fb7fbd1db67ef7b4a99a2394f2140aa0, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 128242a4733277246b88d3c3f4c6f502,
       type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: f4c4b4af078dd434fa09d06ffb2f58ff,

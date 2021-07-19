@@ -48,7 +48,7 @@ MonoBehaviour:
   fitAtlas: 1
   textureMerge: {fileID: 11400000, guid: d242fc6cda21e9b42b95a0c72bb3bee1, type: 2}
   convertRenderTexture: 0
-  convertMipMaps: 0
+  convertMipMaps: 1
   atlasResolution: 2048
   editorAtlasResolution: 1024
   AtlasOverflowFitMethod: 1
@@ -57,6 +57,7 @@ MonoBehaviour:
   defaultOverlayAsset: {fileID: 11400000, guid: fe30fbf67b51de8499624c6913a39e64,
     type: 2}
   ignoreTag: UMAIgnore
+  SaveAndRestoreIgnoredItems: 0
   meshCombiner: {fileID: 9122556946992078335}
   InitialScaleFactor: 2
   editorInitialScaleFactor: 2

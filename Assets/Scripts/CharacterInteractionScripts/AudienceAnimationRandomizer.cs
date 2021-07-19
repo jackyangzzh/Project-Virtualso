@@ -1,18 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR;
 
 public class AudienceAnimationRandomizer : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private Animator animator;
+
+    private void Awake()
     {
-        
+        animator = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        
+        //XRSettings.eyeTextureResolutionScale = 1.5f;
+        InvokeRepeating("SetAnimator", 3f, 5f);
+    }
+
+    private void SetAnimator()
+    {
+        animator.SetFloat("random", Random.value);
     }
 }
