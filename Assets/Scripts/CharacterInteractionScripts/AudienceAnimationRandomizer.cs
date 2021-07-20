@@ -6,6 +6,7 @@ using UnityEngine.XR;
 public class AudienceAnimationRandomizer : MonoBehaviour
 {
     private Animator animator;
+    [SerializeField] float Frequency = 5f;
 
     private void Awake()
     {
@@ -14,12 +15,11 @@ public class AudienceAnimationRandomizer : MonoBehaviour
 
     private void Start()
     {
-        //XRSettings.eyeTextureResolutionScale = 1.5f;
-        InvokeRepeating("SetAnimator", 3f, 5f);
+        InvokeRepeating("SetAnimator", 0, Frequency);
     }
 
     private void SetAnimator()
     {
-        animator.SetFloat("random", Random.value);
+        animator.SetInteger("randomValue", Random.Range(0,3));
     }
 }
