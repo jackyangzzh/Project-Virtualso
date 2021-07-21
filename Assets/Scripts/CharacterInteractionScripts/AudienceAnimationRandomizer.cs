@@ -15,7 +15,7 @@ public class AudienceAnimationRandomizer : MonoBehaviour
 
     private void Start()
     {
-        InvokeRepeating("SetAnimator", 0, Frequency);
+        InvokeRepeating("SetAnimator", 0, Random.Range(Frequency, Frequency * 2));
     }
 
     private void SetAnimator()
