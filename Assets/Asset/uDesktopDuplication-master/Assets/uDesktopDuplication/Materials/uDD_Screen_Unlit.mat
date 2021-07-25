@@ -34,7 +34,7 @@ Material:
     - _Cull: 2
     - _Forward: 0
     - _Radius: 32.8
-    - _Thickness: 1
+    - _Thickness: 0.68
     - _Width: 1
     m_Colors:
     - <noninit>: {r: 0, g: 1.3912242e-34, b: 0, a: 1.3912168e-34}
